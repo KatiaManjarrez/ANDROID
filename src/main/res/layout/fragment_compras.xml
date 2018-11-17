@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComprasFragment">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="32dp"
+          android:text="Mi Lista"
+          android:textSize="24sp" />
+
+      <Button
+          android:id="@+id/botonagregar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="195dp"
+          android:text="Agregar" />
+
+      <EditText
+          android:id="@+id/nomproducto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignEnd="@+id/textView4"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="114dp"
+          android:ems="10"
+          android:hint="Nombre del producto"
+          android:inputType="textPersonName" />
+
+      <EditText
+          android:id="@+id/txcantidad"
+          android:layout_width="97dp"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/nomproducto"
+          android:layout_alignParentEnd="true"
+          android:layout_marginEnd="39dp"
+          android:ems="10"
+          android:hint="Cantidad"
+          android:inputType="number" />
+
+  </RelativeLayout>
+
+</FrameLayout>

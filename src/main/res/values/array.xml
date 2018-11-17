@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Opciones">
+        <item>Selecciona una Ubicación</item>
+        <item>Alacena</item>
+        <item>Refrigerador</item>
+        <item>Congelador</item>
+        <item>Otro</item>
+    </string-array>
+
+</resources>
